@@ -14,12 +14,12 @@ It contains methods to delete, update, add properties to the TreeMap.
 
 
 The bundle variable in the class to load the required property file, is specified in the faces-config.xml
-<resources>
+"<resources>
     <bundle>
       <src>/en_basic.properties</src>
       <var>en_basic</var>
     </bundle>
-</resources>
+</resources>"
 
 A view is also necessary to get all the property documents
 
