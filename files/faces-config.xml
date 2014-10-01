@@ -1,0 +1,15 @@
+<!--
+		Property Handler managed-bean
+	  -->
+  <managed-bean>
+    <managed-bean-name>propertyHandler</managed-bean-name>
+    <managed-bean-class>nl.elstarit.property.PropertyHandler</managed-bean-class>
+    <managed-bean-scope>application</managed-bean-scope>
+  </managed-bean>
+  
+   <resources>
+    <bundle>
+      <src>/en_basic.properties</src>
+      <var>en_basic</var>
+    </bundle>
+  </resources>
